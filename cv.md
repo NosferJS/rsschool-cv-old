@@ -27,6 +27,7 @@ I study front-end in my spare time.
 > - [JavaScript + React ](https://www.udemy.com/course/javascript_full/)(in progress...)
 > - [HTML, CSS & Git](https://www.udemy.com/course/webdeveloper/) (in progress...)
 ***
+
 ## Skills
 + HTML
 + JavaScript
@@ -34,6 +35,7 @@ I study front-end in my spare time.
 + SQL
 + QA Manual *( basic knowledge )*
 ***
+
 ## Code examples
 ```javascript
 module.exports = function reverse (n) {
@@ -46,6 +48,7 @@ module.exports = function reverse (n) {
 }
 ```
 ***
+
 ## English
 My English level is now - A1. 
 
