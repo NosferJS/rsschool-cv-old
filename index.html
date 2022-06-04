@@ -4,11 +4,159 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cv</title>
+    <link rel="icon" type="img/png" href="./assets/img/icon.png">
     <link rel="stylesheet" href="style.css">
+    <title>Cv</title>
 </head>
 <body>
-    <h1>Nosferjs</h1>
+  
+    <header class="header">
+        <div class="container-header">
+        <h1>Stas Pokatashkin </h1>
+        <h3>Junior Frontend Developer</h3>
+        </div>
+    </header>
+
+    <div class="container-uoter">
+        <aside class="sidebar">
+            
+                <img class="sidebar-photo" src="./assets/img/photo.jpg" alt="photo">
+                <nav class="contacts">
+                    <h3 >Contacts</h3>
+                    <ul class="contacts-list">
+                        <li class="contacts-item"><a class="contacts-link" href="https://t.me/NosferJS">Telegram</a>
+                        </li>
+                        <li class="contacts-item"><a class="contacts-link"
+                                href="mailto:JSSpokatashkin@gmail.com">Email</a></li>
+                        <li class="contacts-item"><a class="contacts-link" href="https://github.com/NosferJS">GitHub</a>
+                        </li>
+                        <li class="contacts-item"><a class="contacts-link" href="tel:+375293665339">Call me</a></li>
+                    </ul>
+                </nav>
+            
+        </aside>
+
+        <div class="container-inner">
+            <nav class="nav">
+            <div class="container-nav">
+                
+                <ul class="nav-list">
+                    <li class="nav-item"><a class="nav-link" href="#navABOUT">About me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#navPORTFOLIO">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#navEDUCATION">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#navSKILS">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#navCODE">Code</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#navENGLISH">English</a></li>
+
+                </ul>
+                
+            </div>
+            </nav>
+            <main class="main">
+                
+                    <section class="section">
+                        <h2 id="navABOUT">About me</h2>
+                        <p>I am 33 years old and for the last 8 years I have worked in the energy
+                            industry in various positions. I am currently working as an gas turbine operator.
+                            My goal is to start a career junior front-end developer and develop in this
+                            area.I have good analytical skills. Easy to learn. I work well in a team.</p>
+                        <h2>Additional information</h2>
+                        <p>Personal qualities - responsibility and punctuality
+                            My hobbies are fishing and cycling.
+                            I study front-end in my spare time.</p>
+                    </section>
+
+                    <section class="section">
+                        <h2 id="navPORTFOLIO">Portfolio</h2>
+                        <a href="cv.md" target="_blank">Marcdown CV</a>
+                    </section>
+
+                    <section class="section">
+                        <!-- EDUCATIO -->
+                        <h2 id="navEDUCATION">Education</h2>
+
+                        <ul>
+                            <li>P.O. Sukhoi GSTU <br>
+                                <a href="https://www.gstu.by/education/the-first-stage-of-higher-education/1-43-01-05"
+                                    target="_blank">
+                                    Specialty: Heat power plants and heat supply systems</a>
+                            </li>
+                            <li>Online learning
+                                <ul>
+                                    <li><b>Udemi </b><a href="https://www.udemy.com/course/java-oca-oracle/"
+                                            target="_blank">Java</a></li>
+                                    <li><b>Udemi </b><a href="https://www.udemy.com/course/javascript_full/"
+                                            target="_blank">JavaScript +
+                                            React</a>
+                                    </li>
+                                    <li><b>Udemi </b><a href="https://www.udemy.com/course/webdeveloper/"
+                                            target="_blank">HTML, CSS & Git</a>
+                                    </li>
+
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </section>
+
+                    <section class="section">
+                        <!-- Skills -->
+                        <h2 id="navSKILS">Skills</h2>
+
+                        <ul>
+                            <li>HTML<br>
+                                <progress max="100" value="20"></progress>
+                            </li>
+                            <li>JavaScript<br>
+                                <progress max="100" value="2"></progress>
+                            </li>
+                            <li>CSS3<br>
+                                <progress max="100" value="15"></progress>
+                            </li>
+                            <li>SQL<br>
+                                <progress max="100" value="40"></progress>
+                            </li>
+                            <li>Java<br>
+                                <progress max="100" value="20"></progress>
+                            </li>
+                            <li>QA Manual<br>
+                                <progress max="100" value="40"></progress>
+                            </li>
+
+                        </ul>
+
+                    </section>
+
+                    <!-- CODE -->
+                    <section class="section">
+                        <h2 id="navCODE">Code examples</h2>
+
+                        <pre><code> 
+                function multiply(a, b){
+                    return a * b;
+                  }
+
+            </code></pre>
+
+                    </section>
+
+                    <section class="section">
+                        <!-- Engl -->
+                        <h2 id="navENGLISH">English</h2>
+                        <p>My English level is now - A1. </p>
+                    </section>
+                
+            </main>
+        </div>
+    </div>
+
+    <footer class="footer">
+
+        <div><a class="git-footer" href="https://github.com/NosferJS" target="_blank">GitHub StasPokatashkin</a></div>
+        <div class="time"> <time>2022</time> </div>
+        <div class="rsSchool"><a href="https://rs.school/js/" target="_blank"><img class="logo"
+                    src="./assets/img/rs_school.svg" alt="rs_logo"></a></div>
+    </footer>
     
 </body>
 </html>
